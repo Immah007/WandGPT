@@ -1,0 +1,89 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="ai-ux.css"/>
+ 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.cdnfonts.com/css/source-code-pro');
+</style>
+  <title>WandGPT Home</title>
+</head>
+<body>
+  
+
+  
+  
+
+     <div id="main">
+          
+        <div class="head">
+            <div class="logo" style="height: 45%;">
+               <img src="wandgpt.png" style="height: 160%;" style="mask-image: linear-gradient(to left, transparent, black)">
+             </div>
+
+
+          
+             <div id="nav-icon" >
+
+               <button class="btn" style="display: block;" onclick="showHd()">
+                   <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" viewBox="0 0 1440.000000 1440.000000" > 
+                       <g><path fill="#fefffe" d="M 518.5,351.5 C 792.495,352.319 1066.49,352.819 1340.5,353C 1367.7,360.22 1378.54,377.72 1373,405.5C 1363.38,427.059 1346.88,435.559 1323.5,431C 1061.31,430.832 799.139,430.332 537,429.5C 511.818,433.75 495.485,423.75 488,399.5C 485.076,374.966 495.243,358.966 518.5,351.5 Z"/></g> 
+                        <g><path fill="#fefffe" d="M 198.5,679.5 C 576.021,680.16 953.521,680.826 1331,681.5C 1354.04,676.354 1370.71,684.354 1381,705.5C 1387.12,729.096 1379.28,746.263 1357.5,757C 1348.72,760.079 1339.89,760.246 1331,757.5C 955.687,758.17 580.354,758.836 205,759.5C 184.471,757.969 171.471,747.302 166,727.5C 163.301,702.075 174.134,686.075 198.5,679.5 Z"/></g> 
+                        <g><path fill="#fefffe" d="M 703.5,1004.5 C 918.834,1004.33 1134.17,1004.5 1349.5,1005C 1374.01,1011.88 1384.51,1028.05 1381,1053.5C 1373.02,1076.74 1356.86,1086.57 1332.5,1083C 1122.82,1082.35 913.157,1082.35 703.5,1083C 684.126,1077.28 673.793,1064.28 672.5,1044C 673.904,1023.64 684.238,1010.47 703.5,1004.5 Z"/></g> 
+                     </svg> 
+                   <svg style="display: none;" id="cancel" fill="white" width="auto" height="auto" viewBox="0 0 52 52" data-name="Layer 1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"><path d="M28.94,26,51.39,3.55A2.08,2.08,0,0,0,48.45.61L26,23.06,3.55.61A2.08,2.08,0,0,0,.61,3.55L23.06,26,.61,48.45A2.08,2.08,0,0,0,2.08,52a2.05,2.05,0,0,0,1.47-.61L26,28.94,48.45,51.39a2.08,2.08,0,0,0,2.94-2.94Z"/></svg> 
+
+
+                </button>
+            </div>
+
+      
+      
+        </div>
+          
+          
+        
+             <div id="body">
+
+             </div> 
+             <div id="bottom">
+                 <div id="input-and-send-holder">
+                     <div id="input-holder">
+                         <input type="text" id="input" placeholder="Ask me something...">
+                     </div>
+                     <div id="send-holder">
+                         <div id="color-glow-effect">
+                             <div id="color-gradient"></div>
+                         </div>
+                         <div id="color-glow-block">
+                           <div id="prompt-loader-holder">
+                              <div id="prompt-loader"></div>
+                           </div>
+                         </div>
+                         <button id="send" onclick="sendMsg()">
+                             <svg fill="currentColor" id="sendIcon" width="2rem" height="2rem"  viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><title>ionicons-v5-q</title><path d="M16,464,496,256,16,48V208l320,48L16,304Z"/></svg> 
+                         </button>
+                     </div>
+                 </div>
+                 <div id="footer">AI can make mistakes. Please verify your info.</div>
+             </div>
+  
+        </div>
+
+  
+
+
+
+  
+  
+  
+  
+  <script src="ai-ux.js"></script>
+  
+  
+</body>
+</html>

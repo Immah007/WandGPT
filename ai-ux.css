@@ -160,6 +160,7 @@ body{
         z-index: 100;
         font-family: "Montserrat", sans-serif;
         padding-right: 15px;
+        box-sizing: border-box;
     }
     #send-holder{
         height: 120%;

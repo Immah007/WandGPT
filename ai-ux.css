@@ -214,7 +214,7 @@ body{
         width: 85%;
         height: 85%;
         background: redd;
-        absolute;
+        position: absolute;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -238,6 +238,9 @@ body{
         color: white;
         font-weight: 500;
         position: absolute;
+        display: flex;
+        align-items: center; 
+        justify-content: center;
         
     }
     #footer{

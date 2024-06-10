@@ -15,6 +15,16 @@ let displayTextIndex = 0;
 // alert(displayTexts[2])
 
 
+      function navCancel(){
+          document.getElementById("navigation").style.width = "0";
+      }
+            function navShow(){
+          document.getElementById("navigation").style.width = "70%";
+            }
+
+
+
+
 ///////////////////////////////////////////////////////////
 function typeText() {
 

@@ -391,7 +391,82 @@ body{
     }
     
     
+        
+           /*NAVIGATION BAR STYLING*/
+     #navigation {
+      background: #2d3438;
+      width: 70%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 1.1rem;
+      padding-top: 1.2rem;
+      transition: .5s linear;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    }
+    #navlinks{
+        width: 63vw;
+        height: 2rem;
+        background: redd;
+        flex-grow: 0;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        padding-right: 30px;
+        border-bottom: 1px solid white;
+    }
+    #navlinks >span> a{
+        color: white;
+        margin: 7px;
+        font-size: 1rem;
+        text-decoration: none;
+    }
+    #cancel{
+        width: 97%;
+        height: 4.2rem;
+        background: yelloww;flex-grow: 0;
+        flex-shrink: 0;
+        display: flex;
+        flex-direction: row;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    #x-btn{
+        height: 100%;
+        aspect-ratio: 1/1;
+        align-self: right;
+        background: pinkk;
+        font-size: 1.2rem;
+    }
+    #cancel-btn{
+        width: 100%;
+        height: 100%; 
+        border: none;
+        outline: none;
+        background: none;
+        
+    }
     
+    #nav-logo{
+        width: 90%;
+        height: 10%;
+        background: grey;flex-grow: 0;
+        flex-shrink: 0;
+        margin: 0 auto;
+    }
+    #navigation>hr{
+        width: 90%;
+        background: white;
+        margin: 0 auto;
+    }
+ /*END OF NAVIGATION BAR STYLING*/
+
     
     
     

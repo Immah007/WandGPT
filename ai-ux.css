@@ -400,7 +400,7 @@ body{
       display: flex;
       flex-direction: column;
       gap: 1.1rem;
-      padding-top: .8rem;
+      padding-top: .4rem;
       transition: .5s linear;
       overflow: hidden;
       position: absolute;

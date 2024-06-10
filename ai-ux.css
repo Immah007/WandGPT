@@ -401,7 +401,7 @@ body{
       flex-direction: column;
       gap: 1.1rem;
       padding-top: .4rem;
-      transition: .5s linear;
+      transition: .2s linear;
       overflow: hidden;
       position: absolute;
       left: 0;

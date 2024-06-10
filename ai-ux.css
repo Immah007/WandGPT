@@ -115,6 +115,7 @@ body{
         margin-top: 4px;
         margin-bottom: 4px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
@@ -170,13 +171,12 @@ body{
        max-height: 27%;
        padding: 5px;
        padding-bottom: 7px;
-       background: yelloww;
+       background: #28282B;
        border-radius: 35px;
        border: 1px solid black;
        font-size: .8rem;
-       box-shadow: 0px 0px 7px 1px #00ff05;
        background: rgb(255,255,255, .4);
-       color: black;
+       color: white;
        font-weight: bold;
        
          }

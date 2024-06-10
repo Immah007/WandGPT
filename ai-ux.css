@@ -117,6 +117,7 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        user-select: none;
         
     }
      #intro-div{
@@ -171,7 +172,7 @@ body{
        width: 90%;
        height: 1.4rem;
        max-height: 27%;
-       padding: 5px;
+       padding: 7px;
        padding-bottom: 7px;
        background: #28282B;
        border-radius: 35px;

@@ -133,7 +133,7 @@ body{
         width: 100%;
         height: calc(100% - 9.4rem - 8px);
         scroll-behavior: smooth;
-        position: absolutee;
+        position: relative;
         overflow: scroll;
         margin-top: 4px;
         margin-bottom: 4px;
@@ -159,7 +159,10 @@ body{
        overflow: hidden;
        overflow-x: hidden;
        margin-top: 10%;
-         
+       position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
        
    }
    #intro-head{

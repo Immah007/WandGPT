@@ -170,12 +170,11 @@ body{
    }
    #sample-prompts{
        width: 90%;
-       height: 1.4rem;
        max-height: 27%;
        padding: 7px;
        padding-bottom: 7px;
        background: #28282B;
-       border-radius: 35px;
+       border-radius: 7px;
        border: 1px solid black;
        font-size: .8rem;
        color: white;

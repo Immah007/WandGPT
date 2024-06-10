@@ -54,7 +54,7 @@ typeText();
 
      
      
-     
+     let introDiv = document.getElementById("intro-div");
      let colorGlowEffect = document.getElementById("color-glow-effect");
      let colorGradient = document.getElementById("color-gradient");
      let sendButton = document.getElementById("send");
@@ -203,6 +203,7 @@ copysvg.appendChild(copypath);
         
         
         function sendMsg(){
+                introDiv.style.display = "none";
                 colorGlowEffect.style.visibility = "visible";
                 colorGradient.style.visibility = "visible";
                 sendButton.style.background = "transparent";

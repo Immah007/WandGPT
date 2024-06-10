@@ -114,6 +114,9 @@ body{
         overflow: scroll;
         margin-top: 4px;
         margin-bottom: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
      #intro-div{
        box-sizing: border-box;
@@ -128,6 +131,8 @@ body{
        padding-top: 15px;
        padding-bottom: 15px;
        overflow: scroll;
+       overflow-x: hidden;
+         
        
    }
    #intro-head{

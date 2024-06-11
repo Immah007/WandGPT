@@ -50,12 +50,37 @@ let displayTextIndex = 0;
                  codeSnippet.setAttribute("class", "new");   
              //   newDiv.style.width = "50
 
-
+            let generatedCode = `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Code as Text</title>
+</head>
+<body>
+    <pre>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>HTML Code as Text</title>
+        </head>
+        <body>
+            <h1>This is HTML code rendered as text</h1>
+        </body>
+        </html>
+    </pre>
+</body>
+</html>
+`
                                   
                  responseArea.innerText = "Server working...";
                  responseArea.appendChild(codeSnippetHolder);
                  codeSnippetHolder.appendChild(codeSnippetHead);
                  codeSnippetHolder.appendChild(codeSnippet);
+                 codeSnippet.appendChild(codeRender);
+                 codeRender.innerText = generatedCode;
                  introDiv.style.display = "none";
                  body.appendChild(responseArea); 
    };

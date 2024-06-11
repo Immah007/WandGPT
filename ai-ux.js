@@ -29,14 +29,14 @@ let displayTextIndex = 0;
           document.getElementById("navigation").style.width = "70%";
             };
 
-   function createStarterPrompt(){
+   function createStarterPrompt(){ alert("");
            let startingPrompt = document.createElement("div");
                  reactionArea.setAttribute("id", "reactionArea");
                  reactionArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";
                  reactionArea.innerText = "Server working...";
                  introDiv.style.display = "none";
-                 body.appendChild(reactionArea)
+                 body.appendChild(reactionArea);
    };
 
 

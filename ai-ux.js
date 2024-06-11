@@ -398,7 +398,7 @@ copysvg.appendChild(copypath);
              reactionArea.appendChild(copyButton);
              reactionArea.appendChild(dislikeIcon);
              responseArea.appendChild(responseText);
-             responseArea.appendChild(reactionArea)
+             //responseArea.appendChild(reactionArea)
              body.appendChild(responseArea);
                   
              //    responseArea.innerText = generatedText; (RESPONSE WITHOUT GPT-LIKE SIMULATIOM)

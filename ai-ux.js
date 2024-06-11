@@ -42,13 +42,13 @@ function typeText() {
       deleting = false;
     }
   } else {
-    blink.style.animationPlayState = "running";
+    blink.style.animationPlayState = "paused";
     setTimeout(function(){element.textContent = text.slice(0, index + 1);
     index++;}, 2700)
 
     if (index === text.length) {
       
-     // blink.style.animationPlayState = "running";
+      blink.style.animationPlayState = "running";
       setTimeout(function(){deleting = true; }, 1900)
     }
   }

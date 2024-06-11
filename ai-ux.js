@@ -136,6 +136,7 @@ let displayTextIndex = 0;
 
   // Function to add text with typing effect
   function addTextWithTypingEffect(index) {
+          body.scrollTop = body.scrollHeight;
     // Base case: if index is equal to the length of the sentence, stop adding letters
     if (index <= sentence.length) {
       // Get the substring of the sentence up to the current index

@@ -41,7 +41,7 @@ let displayTextIndex = 0;
              //   newDiv.style.width = "50
            let  codeDisplayResponseCont = document.createElement("p");
                 // responseArea.setAttribute("id", "response-text");
-                 codeDisplayResponseCont.innerText = "This code is a program of a Javascript algorith that sorts and compacts data for dynamic displaying on the HTML elements.";   
+                 codeDisplayResponseCont.innerText = "This code is a program of a simplified Javascript algorithm that sorts and compacts data for dynamic displaying on the HTML elements.";   
              //   newDiv.style.width = "50
                  let codeSnippetHolder = document.createElement("div");
                  codeSnippetHolder.setAttribute("id", "code-snippet-holder");

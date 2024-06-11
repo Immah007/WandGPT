@@ -145,7 +145,10 @@ let displayTextIndex = 0;
       // Call the function recursively with a delay to add the next letter
       setTimeout(function() {
         addTextWithTypingEffect(index + 1);
-      }, 10); // Adjust the delay (in milliseconds) as needed
+      }, 10); 
+         
+            // Adjust the delay (in milliseconds) as needed
+            body.scrollTop = body.scrollHeight;
     }
   }
 

@@ -208,6 +208,7 @@ body{
    }
    #sample-prompts{
        width: 90%;
+       max-width: 38rem;
        max-height: 27%;
        padding: 7px;
        padding-bottom: 7px;

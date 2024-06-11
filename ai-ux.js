@@ -31,12 +31,12 @@ let displayTextIndex = 0;
 
    function createStarterPrompt(){ alert("");
            let reactionArea = document.createElement("div");
-                 reactionArea.setAttribute("id", "reactionArea");
-                 reactionArea.setAttribute("class", "new");   
+                 responseArea.setAttribute("id", "responseArea");
+                 responseArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";
-                 reactionArea.innerText = "Server working...";
+                 responseArea.innerText = "Server working...";
                  introDiv.style.display = "none";
-                 body.appendChild(reactionArea);
+                 body.appendChild(responseArea);
    };
 
 

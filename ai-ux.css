@@ -380,18 +380,21 @@ body{
             
       #responseArea{ 
           width: 95%;
-          min-height: 
-          70px; box-sizing: 
-          border-box; padding: 
-         12px; border-radius: 
-              7px; font-size: 
-              1rem; border: 
-              1px solid black; 
+          min-height:  70px; 
+          box-sizing:  border-box;
+          padding: 12px;
+          border-radius:  7px; 
+          font-size:   1rem; 
+          border:   1px solid black; 
           background: rgb(190, 190, 225, .1); 
           margin: 0 auto; 
-          text-align: left; margin-top: 
-              5px; margin-bottom: 5px; 
+          text-align: left; 
+          margin-top:  5px; 
+          margin-bottom: 5px; 
           flex-shrink: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
        }
 
      #reactionArea{ width: 100%; height: 1.8rem; background: redd; margin-top: 10px; display: flex; justify-content: flex-end; gap: .4rem;}
@@ -409,7 +412,7 @@ body{
     
             #code-snippet-holder{
             margin-top: 40px;
-            width: 70%;
+            width: 95%;
             min-height: 70px;
             color: white;
             border-radius: 5px;

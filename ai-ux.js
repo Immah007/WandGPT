@@ -39,7 +39,7 @@ let displayTextIndex = 0;
                  codeDisplayResponse.setAttribute("id", "response-text");
                  codeDisplayResponse.innerText = "Sure! Here is a sample HTML and Javascript code snippet";   
              //   newDiv.style.width = "50
-           let  codeDisplayResponseCont = document.createElement("p");
+          // let  codeDisplayResponseCont = document.createElement("p");
                  responseArea.setAttribute("id", "response-text");
                  codeDisplayResponseCont.innerText = "This code will create a HTML and Javascript code thst you can use for a simple website.";   
              //   newDiv.style.width = "50

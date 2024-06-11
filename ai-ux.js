@@ -35,6 +35,10 @@ let displayTextIndex = 0;
                  responseArea.setAttribute("id", "responseArea");
                  responseArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";
+             let codeDisplayResponse = document.createElement("p");
+                 codeDisplayResponse.setAttribute("id", "responseArea");
+                 codeDisplayResponse.innerText = "Sure! Here is a sample HTML and Javascript code snippet";   
+             //   newDiv.style.width = "50
                  let codeSnippetHolder = document.createElement("div");
                  codeSnippetHolder.setAttribute("id", "code-snippet-holder");
                  codeSnippetHolder.setAttribute("class", "new");   
@@ -76,6 +80,7 @@ let displayTextIndex = 0;
 `
                                   
                  responseArea.innerText = "Server working...";
+                 responseArea.appendChild(codeDisplayResponse);
                  responseArea.appendChild(codeSnippetHolder);
                  codeSnippetHolder.appendChild(codeSnippetHead);
                  codeSnippetHolder.appendChild(codeSnippet);

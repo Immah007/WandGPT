@@ -30,7 +30,7 @@ let displayTextIndex = 0;
             };
 
    function createStarterPrompt(){ alert("");
-           let reactionArea = document.createElement("div");
+           let responseArea = document.createElement("div");
                  responseArea.setAttribute("id", "responseArea");
                  responseArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";

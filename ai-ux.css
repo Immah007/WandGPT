@@ -156,6 +156,7 @@ body{
      #intro-div{
        box-sizing: border-box;
        width: 90%;
+       max-width: 50rem;
        height: 90%;
        background: rgb(0,0,0,.2);
        display: flex;

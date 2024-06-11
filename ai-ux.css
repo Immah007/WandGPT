@@ -362,7 +362,7 @@ body{
         font-weight: 700;
         gap: -5px;
     }
-    #cursor{ animation: blinker .7s linear infinite running; }
+    #cursor{ animation: blinker 1.5s linear infinite running; }
     
     
     

@@ -33,8 +33,8 @@ function typeText() {
   
    const text = displayTexts[displayTextIndex];
   if (deleting) { 
-          blink.style.animationPlayState = "running";
-         // blink.style.color = "black";
+          blink.style.animationPlayState = "paused";
+          blink.style.color = "black";
     element.textContent = text.slice(0, index);
     index--;
 
@@ -42,7 +42,7 @@ function typeText() {
       deleting = false;
     }
   } else {
-    blink.style.animationPlayState = "paused";
+    blink.style.animationPlayState = "running";
     setTimeout(function(){element.textContent = text.slice(0, index + 1);
     index++;}, 2700)
 

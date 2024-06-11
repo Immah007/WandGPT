@@ -139,6 +139,7 @@ let displayTextIndex = 0;
     // Base case: if index is equal to the length of the sentence, stop adding letters
     if (index <= sentence.length) {
       // Get the substring of the sentence up to the current index
+      body.scrollTop = body.scrollHeight;
       var textToAdd = sentence.substring(0, index);
       // Set the div's text content to the substring
       codeRender.textContent = textToAdd;

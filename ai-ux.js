@@ -93,6 +93,39 @@ let displayTextIndex = 0;
                  codeRender.innerText = generatedCode;
                  introDiv.style.display = "none";
                  body.appendChild(responseArea); 
+
+
+     //AUTO CODE TYPING START
+                  function typeTheNextLetter() {
+
+                       let codeIndex = 0;
+     // body.scrollTop = body.scrollHeight;
+    responseText.textContent += text[CodeIndex];
+    codeIndex++;
+
+    if (index < text.length) {
+      setTimeout(typeNextLetter, delay);
+    } else {
+      if (callback && typeof callback === 'function') {
+        callback();
+      }
+    }
+  }
+
+  typeTheNextLetter();
+  
+}
+
+//END OF AUTO CODE TYPING
+
+
+
+
+
+
+
+
+           
    };
 
 

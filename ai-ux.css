@@ -418,7 +418,8 @@ body{
     }
     
             #code-snippet-holder{
-            margin-top: 40px;
+            margin-top: 10px;
+            margin-bottom: 12px;
             width: 95%;
             min-height: 70px;
             color: white;

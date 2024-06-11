@@ -55,7 +55,7 @@ let displayTextIndex = 0;
                  responseArea.innerText = "Server working...";
                  responseArea.appendChild(codeSnippetHolder);
                  codeSnippetHolder.appendChild(codeSnippetHead);
-                 codeSnippetHolder.AppendChild(codeSnippet);
+                 codeSnippetHolder.appendChild(codeSnippet);
                  introDiv.style.display = "none";
                  body.appendChild(responseArea); 
    };

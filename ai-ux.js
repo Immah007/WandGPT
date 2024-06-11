@@ -78,7 +78,39 @@ let displayTextIndex = 0;
             <h1>This is HTML code rendered as text</h1>
         </body>
         </html>
-    </pre>
+    <script type = "text/javascript">
+         const fetchData = async (url) => {
+             try {
+      const response = await fetch(url);
+      const data = await response.json();
+        return data;
+              } catch (error) {
+      console.error('Error fetching data:', error);
+        throw error;
+         }
+     };
+
+       const processData = (data) => {
+      // Complex data processing logic
+         return data.map(item => item * 2);
+     };
+
+     const displayData = (data) => {
+     // Simplified data rendering logic
+      data.forEach(item => console.log(item));
+    };
+
+     (async () => {
+        try {
+        const data = await fetchData('https://api.wand-gpt.com/data');
+        const processedData = processData(data);
+        displayData(processedData);
+        } catch (error) {
+     console.error('An error occurred:', error);
+    }
+      })();
+
+    </script>
 </body>
 </html>
 `

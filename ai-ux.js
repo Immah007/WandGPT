@@ -41,7 +41,7 @@ let displayTextIndex = 0;
              //   newDiv.style.width = "50
            let  codeDisplayResponseCont = document.createElement("p");
                 // responseArea.setAttribute("id", "response-text");
-                 codeDisplayResponseCont.innerText = "This code will create a HTML and Javascript code thst you can use for a simple website.";   
+                 codeDisplayResponseCont.innerText = "This code will create a Javascript code that simplifies and compacts HTML data rendering. You can use it in your website.";   
              //   newDiv.style.width = "50
                  let codeSnippetHolder = document.createElement("div");
                  codeSnippetHolder.setAttribute("id", "code-snippet-holder");
@@ -115,7 +115,7 @@ let displayTextIndex = 0;
 </html>
 `
                                   
-                 responseArea.innerText = "Server working...";
+                // responseArea.innerText = "Server working...";
                  responseArea.appendChild(codeDisplayResponse);
                  responseArea.appendChild(codeSnippetHolder);
                  responseArea.appendChild(codeDisplayResponseCont); 

@@ -398,6 +398,9 @@ body{
           align-items: center;
           text-align: left;
        }
+      #response-text{
+          width: 100%;
+      }
 
      #reactionArea{ width: 100%; height: 1.8rem; background: redd; margin-top: 10px; display: flex; justify-content: flex-end; gap: .4rem;}
                #copyArea{ width: 95%; height: 1.8rem; background: bluee; margin-top: 5px; display: flex; justify-content: flex-end; gap: .4rem; margin: 0 auto; }

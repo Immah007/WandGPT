@@ -90,13 +90,35 @@ let displayTextIndex = 0;
                  codeSnippetHolder.appendChild(codeSnippetHead);
                  codeSnippetHolder.appendChild(codeSnippet);
                  codeSnippet.appendChild(codeRender);
-                 codeRender.innerText = generatedCode;
+                 //codeRender.innerText = generatedCode;
                  introDiv.style.display = "none";
                  body.appendChild(responseArea); 
 
 
      //AUTO CODE TYPING START
-           
+           // Get the div element by its id
+  var divElement = document.getElementById("codeDisplayResponse");
+
+  // Define the sentence
+  var sentence = generatedCode;
+
+  // Function to add text with typing effect
+  function addTextWithTypingEffect(index) {
+    // Base case: if index is equal to the length of the sentence, stop adding letters
+    if (index <= sentence.length) {
+      // Get the substring of the sentence up to the current index
+      var textToAdd = sentence.substring(0, index);
+      // Set the div's text content to the substring
+      codeRender.textContent = textToAdd;
+      // Call the function recursively with a delay to add the next letter
+      setTimeout(function() {
+        addTextWithTypingEffect(index + 1);
+      }, 10); // Adjust the delay (in milliseconds) as needed
+    }
+  }
+
+  // Start the typing effect
+  addTextWithTypingEffect(0);
 
      //END OF AUTO CODE TYPING
 

@@ -395,6 +395,7 @@ body{
           display: flex;
           flex-direction: column;
           justify-content: center;
+          align-items: center;
        }
 
      #reactionArea{ width: 100%; height: 1.8rem; background: redd; margin-top: 10px; display: flex; justify-content: flex-end; gap: .4rem;}

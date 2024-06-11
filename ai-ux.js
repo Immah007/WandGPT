@@ -28,7 +28,7 @@ let displayTextIndex = 0;
 ///////////////////////////////////////////////////////////
 function typeText() {
 
-  const element = document.getElementById("footer");
+  const element = document.getElementById("typing-effect");
 
    const text = displayTexts[displayTextIndex];
   if (deleting) {// blink.style.animationPlayState = "running";

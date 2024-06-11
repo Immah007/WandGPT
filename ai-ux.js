@@ -33,7 +33,7 @@ let displayTextIndex = 0;
           // alert("");
            let responseArea = document.createElement("div");
                  responseArea.setAttribute("id", "responseArea");
-                 responseArea.setAttribute("class", "new");   
+                 responseArea.setAttribute("class", "newer");   
              //   newDiv.style.width = "50%";
              let codeDisplayResponse = document.createElement("p");
                  codeDisplayResponse.setAttribute("id", "response-text");

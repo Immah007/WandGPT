@@ -52,6 +52,15 @@ body{
            transform: rotateZ(360deg);
        }
    }
+ 
+@keyframes blinker{
+     0%{color: black;}
+     25%{color: black;}
+     26%{color: transparent;}
+     75%{color: transparent;}
+     76%{color: black;}     
+     100%{color: black;}
+     }
     .head{
         box-sizing: border-box;
         width: 100%;
@@ -353,7 +362,7 @@ body{
         font-weight: 700;
         gap: -5px;
     }
-    
+    #cursor{ animation: blinker .7s linear infinite running; }
     
     
     

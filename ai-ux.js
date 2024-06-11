@@ -42,7 +42,7 @@ function typeText() {
       deleting = false;
     }
   } else {
-    blink.style.animationPlayState = "paused";
+    blink.style.animationPlayState = "running";
     setTimeout(function(){element.textContent = text.slice(0, index + 1);
     index++;}, 2700)
 
@@ -58,7 +58,7 @@ function typeText() {
 
 
    if(deleting && index==0 ){
-           blink.style.animationPlayState = "running";
+          // blink.style.animationPlayState = "running";
            displayTextIndex++}
    if(displayTextIndex > 6){ displayTextIndex = 0};
 

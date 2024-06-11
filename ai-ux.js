@@ -2,12 +2,12 @@
     
     let blink = document.getElementById("cursor");
     const text1 = "Hello, welcome to WandGPT.■";
-    const text2 = "WandGPT is created in Nairobi."
-    const text3 = "You are interacting with the UX/UI testing stage.";
-    const text4 = "This version of WandGPT is for UX testing only.";
-    const text5 = "This is an open source and free research preview for everybody.";
-    const text6 = "This module has not yet been linked to its AI engine.";
-    const text7 = "The real-time AI response functionality will be launced after this stage."
+    const text2 = "WandGPT is created in Nairobi"
+    const text3 = "You are interacting with the UX/UI testing stage.;
+    const text4 = "This version of WandGPT is for UX testing only";
+    const text5 = "This is an open source and free research preview for everybody";
+    const text6 = "This module has not yet been linked to its AI engine";
+    const text7 = "The real-time AI response functionality will be launced after this stage"
 let index = 0;
 let deleting = false;
 let displayTexts = [text1, text2, text3,text4, text5, text6, text7];

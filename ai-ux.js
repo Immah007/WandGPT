@@ -324,7 +324,11 @@ copysvg.appendChild(copypath);
               else { generatedText= randomApology+ ". At this early training stage, I still can't understand what you meant by " +"\""  + prompt.value + "\". " + "Please note that you are taking part in my UX/UI responsivity testing. I will be able to answer any question you need after quality check of my UX is affirmed by the developing team. My AI Engine will be accessible after the UX/UI test is complete. Thanks and see you more often."; }
 
              let responseArea = document.createElement("div");
-                 responseArea.setAttribute("id", "responseArea")
+                 responseArea.setAttribute("id", "responseArea");
+
+
+             let responseText = document.createElement("p");
+                 responseText.setAttribute("id","generated-text");
              
              let reactionArea = document.createElement("div");
                  reactionArea.setAttribute("id", "reactionArea")
@@ -393,7 +397,7 @@ copysvg.appendChild(copypath);
              reactionArea.appendChild(likeIcon);
              reactionArea.appendChild(copyButton);
              reactionArea.appendChild(dislikeIcon);
-             
+             responseArea.appendChild(responseText);
              responseArea.appendChild(reactionArea)
              body.appendChild(responseArea);
                   
@@ -406,7 +410,7 @@ copysvg.appendChild(copypath);
 
   function typeNextLetter() {
      // body.scrollTop = body.scrollHeight;
-    responseArea.textContent += text[index];
+    responseText.textContent += text[index];
     index++;
 
     if (index < text.length) {

@@ -24,9 +24,10 @@ let displayTextIndex = 0;
 
    function createStarterPrompt{
            let startingPrompt = document.createElement("div");
-                 reactionArea.setAttribute("id", "reactionArea")
-                 reactionArea.setAttribute("class", "new")   
+                 reactionArea.setAttribute("id", "reactionArea");
+                 reactionArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";
+                 reactionArea.innerText = "Server working...";
    }
 
 

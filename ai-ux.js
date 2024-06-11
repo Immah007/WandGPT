@@ -29,7 +29,8 @@ let displayTextIndex = 0;
           document.getElementById("navigation").style.width = "70%";
             };
 
-   function createStarterPrompt(){ alert("");
+   function createStarterPrompt(){ 
+           alert("");
            let responseArea = document.createElement("div");
                  responseArea.setAttribute("id", "responseArea");
                  responseArea.setAttribute("class", "new");   
@@ -56,7 +57,7 @@ let displayTextIndex = 0;
                  codeSnippetHolder.appendChild(codeSnippetHead);
                  codeSnippetHolder.AppendChild(codeSnippet);
                  introDiv.style.display = "none";
-                 body.appendChild(responseArea);
+                 body.appendChild(responseArea); 
    };
 
 

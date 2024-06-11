@@ -328,7 +328,7 @@ copysvg.appendChild(copypath);
 
 
              let responseText = document.createElement("p");
-                 responseText.setAttribute("id","generated-text");
+                 responseText.setAttribute("id","response-text");
              
              let reactionArea = document.createElement("div");
                  reactionArea.setAttribute("id", "reactionArea")

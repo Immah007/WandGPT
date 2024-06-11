@@ -1,7 +1,7 @@
         let body = document.getElementById("body");
     
     let blink = document.getElementById("cursor");
-    const text1 = "Hello, welcome to WandGPT.";
+    const text1 = "Hello, welcome to WandGPT.■";
     const text2 = "WandGPT is created in Nairobi."
     const text3 = "You are interacting with the UX/UI testing stage.";
     const text4 = "This version of WandGPT is for UX testing only.";

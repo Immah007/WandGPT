@@ -34,7 +34,27 @@ let displayTextIndex = 0;
                  responseArea.setAttribute("id", "responseArea");
                  responseArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";
+                 let codeSnippetHolder = document.createElement("div");
+                 codeSnippetHolder.setAttribute("id", "code-snippet-holder");
+                 codeSnippetHolder.setAttribute("class", "new");   
+             //   newDiv.style.width = "50
+                 let codeSnippetHead = document.createElement("div");
+                 codeSnippetHead.setAttribute("id", "code-snippet-head");
+                 codeSnippetHead.setAttribute("class", "new");   
+             //   newDiv.style.width = "50
+                 let codeRender = document.createElement("pre");
+             //   newDiv.style.width = "50
+                 let codeSnippet = document.createElement("div");
+                 codeSnippet.setAttribute("id", "code-snippet");
+                 codeSnippet.setAttribute("class", "new");   
+             //   newDiv.style.width = "50
+
+
+                                  
                  responseArea.innerText = "Server working...";
+                 responseArea.appendChild(codeSnippetHolder);
+                 codeSnippetHolder.appendChild(codeSnippetHead);
+                 codeSnippetHolder.AppendChild(codeSnippet);
                  introDiv.style.display = "none";
                  body.appendChild(responseArea);
    };

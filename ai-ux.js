@@ -29,10 +29,12 @@ let displayTextIndex = 0;
 function typeText() {
 
   const element = document.getElementById("typing-effect");
-
-   const text = displayTexts[displayTextIndex];
-  if (deleting) {// blink.style.animationPlayState = "running";
+  const blink = document.getElementById("cursor");
   
+   const text = displayTexts[displayTextIndex];
+  if (deleting) { 
+          blink.style.animationPlayState = "running";
+         // blink.style.color = "black";
     element.textContent = text.slice(0, index);
     index--;
 
@@ -40,7 +42,7 @@ function typeText() {
       deleting = false;
     }
   } else {
-   // blink.style.animationPlayState = "running";
+    blink.style.animationPlayState = "running";
     setTimeout(function(){element.textContent = text.slice(0, index + 1);
     index++;}, 2700)
 

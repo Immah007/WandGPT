@@ -1,5 +1,12 @@
         let body = document.getElementById("body");
-    
+        let introDiv = document.getElementById("intro-div");
+     let colorGlowEffect = document.getElementById("color-glow-effect");
+     let colorGradient = document.getElementById("color-gradient");
+     let sendButton = document.getElementById("send");
+     
+     
+     
+
     let blink = document.getElementById("cursor");
     const text1 = "Hello, welcome to WandGPT";
     const text2 = "WandGPT is created in Nairobi";
@@ -17,18 +24,20 @@ let displayTextIndex = 0;
 
       function navCancel(){
           document.getElementById("navigation").style.width = "0";
-      }
+      };
             function navShow(){
           document.getElementById("navigation").style.width = "70%";
-            }
+            };
 
-   function createStarterPrompt{
+   function createStarterPrompt(){
            let startingPrompt = document.createElement("div");
                  reactionArea.setAttribute("id", "reactionArea");
                  reactionArea.setAttribute("class", "new");   
              //   newDiv.style.width = "50%";
                  reactionArea.innerText = "Server working...";
-   }
+                 introDiv.style.display = "none";
+                 body.appendChild(reactionArea)
+   };
 
 
 ///////////////////////////////////////////////////////////
@@ -74,14 +83,7 @@ typeText();
 
      
      
-     let introDiv = document.getElementById("intro-div");
-     let colorGlowEffect = document.getElementById("color-glow-effect");
-     let colorGradient = document.getElementById("color-gradient");
-     let sendButton = document.getElementById("send");
      
-     
-     
-
           let queryArea = document.getElementById("queryArea");
     
     

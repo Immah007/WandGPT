@@ -84,9 +84,9 @@ let displayTextIndex = 0;
 `
                                   
                  responseArea.innerText = "Server working...";
-                 responseArea.appendChild(codeDisplayResponse);
+                /* responseArea.appendChild(codeDisplayResponse);
                  responseArea.appendChild(codeSnippetHolder);
-                 responseArea.appendChild(codeDisplayResponseCont);
+                 responseArea.appendChild(codeDisplayResponseCont); */
                  codeSnippetHolder.appendChild(codeSnippetHead);
                  codeSnippetHolder.appendChild(codeSnippet);
                  codeSnippet.appendChild(codeRender);

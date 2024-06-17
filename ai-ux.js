@@ -134,8 +134,8 @@ let displayTextIndex = 0;
   // Define the sentence
   var sentence = generatedCode;
 
-  // Function to add text with typing effect
-  function addTextWithTypingEffect(index) {
+  // Fxn ATTEff
+  function typeEff(index) {
           
          // setInterval(function (){body.scrollTop = body.scrollHeight;}, 10);
     // Base case: if index is equal to the length of the sentence, stop adding letters
@@ -147,7 +147,7 @@ let displayTextIndex = 0;
       codeRender.textContent = textToAdd;
       // Call the function recursively with a delay to add the next letter
       setTimeout(function() {
-        addTextWithTypingEffect(index + 1);
+        typeEff(index + 1);
         body.scrollTop = body.scrollHeight;
       }, 10); 
          
@@ -156,10 +156,10 @@ let displayTextIndex = 0;
     }
   }
 
-  // Start the typing effect
-  addTextWithTypingEffect(0);
+  // Start the typing
+  typeEff(0);
 
-     //END OF AUTO CODE TYPING
+     //END OF AUTO CODE
 
 
            

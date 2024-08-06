@@ -401,7 +401,7 @@ copysvg.appendChild(copypath);
 
               if (greetings.includes(lowercaseInput)) {  generatedText=randomGreeting + ". "+ randomadditionResponse; }
               else if(questions.includes(lowercaseInput)){generatedText="I am AzureAI."}
-              else { generatedText= randomApology+ ". At this early training stage, I still can't understand what you meant by " +"\""  + prompt.value + "\". " + "Please note that you are taking part in my UX/UI responsivity testing. I will be able to answer any question you need after quality check of my UX is affirmed by the developing team. My AI Engine will be accessible after the UX/UI test is complete. Thanks and see you more often."; }
+              else { generatedText= randomApology+ ". My capabilities are limited on Serverless mode. I still can't process what you meant by " +"\""  + prompt.value + "\". " + "Please note that this is my UX/UI responsivity render with preprogrammed prompt procssing. I will be able to answer any question you need after quality check of my UX is affirmed by the developing team. My AI Engine will be accessible after the UX/UI test is complete. However, you can have an early access to the logic processing engine at https://wand-1-0-1.onrender.com/. Thanks and see you more often."; }
 
              let responseArea = document.createElement("div");
                  responseArea.setAttribute("id", "responseArea");
